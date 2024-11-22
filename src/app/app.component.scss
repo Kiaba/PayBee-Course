@@ -1,0 +1,8 @@
+input{
+  border:3px solid green;
+}
+
+input:focus{
+  outline: none;
+  border-color:red;
+}
