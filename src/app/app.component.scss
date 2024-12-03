@@ -1,4 +1,4 @@
-.paybee {
+.badge--paybee {
     position: absolute;
     top: 30%;
     left: 30%;
@@ -7,41 +7,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
 
     text-align: center;
-    
+
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-.pill-sm {
-    font-size: 12px;
-    border-radius: 99999px;
-    padding: 2px 8px;
-    width: 48px;
-    height: 22px;
-}
-
-.pill-md {
-    font-size: 14px;
-    border-radius: 99999px;
-    padding: 2px 10px;
-    width: 57px;
-    height: 24px;
-    
-}
-
-.pill-lg {
-    font-size: 14px;
-    border-radius: 99999px;
-    padding: 4px 12px;
-    width: 61px;
-    height: 28px;
+.badge--pill {
+    border-radius: 999999px;
 }
 
 .pill-brand {
@@ -50,164 +29,165 @@
     color: #6941C6;
 }
 
-.gray {
+.badge--gray {
     border: 1px solid #E4E7EC;
     background: #F9FAFB; 
     color: #344054;
 }
 
-.red {
+.badge--red {
     border: 1px solid #FECDCA;
     background: #FEF3F2;
     color: #B42318;
 }
 
-.yellow {
+.badge--yellow {
     border: 1px solid #FEDF89;
     background: #FFFAEB;
     color: #B54708;
 }
 
-.green {
+.badge--green {
     border: 1px solid #ABEFC6;
     background: #ECFDF3;
     color: #067647;
 }
 
-.blue-gray {
+.badge--blue-gray {
     border: 1px solid #D5D9EB;
     background: #F8F9FC;
     color: #363F72;
 }
 
-.blue {
+.badge--blue {
     border: 1px solid #B9E6FE;
     background: #F0F9FF;
     color: #026AA2;
 }
 
-.dark-blue {
+.badge--dark-blue {
     border: 1px solid #B2DDFF;
     background: #EFF8FF;
     color: #175CD3;
 }
 
-.indigo {
+.badge--indigo {
     border: 1px solid #C7D7FE;
     background: #EEF4FF;
     color: #3538CD;
 }
 
-.purple {
+.badge--purple {
     border: 1px solid #D9D6FE;
     background: #F4F3FF;
     color: #5925DC;
 }
 
-.pink {
+.badge--pink {
     border: 1px solid #FCCEEE;
     background: #FDF2FA;
     color: #C11574;
 }
 
-.orange {
+.badge--orange {
     border: 1px solid #F9DBAF;
     background: #FEF6EE;
     color: #B93815;
 }
 
-.outline-gray {
+.badge--outline-gray {
     border: 1.5px solid #475467;
     background: #FFFFFF;
     color: #344054;
 }
 
-.outline-brand {
+.badge--outline-brand {
     border: 1.5px solid #7F56D9;
     background: #FFFFFF;
     color: #6941C6;
 }
 
-.outline-red {
+.badge--outline-red {
     border: 1.5px solid #D92D20;
     background: #FFFFFF;
     color: #B42318;
 }
 
-.outline-yellow {
+.badge--outline-yellow {
     border: 1.5px solid #DC6803;
     background: #FFFFFF;
     color: #B54708;
 }
 
-.outline-green {
+.badge--outline-green {
     border: 1.5px solid #079455;
     background: #FFFFFF;
     color: #067647;
 }
 
-.outline-blue-gray {
+.badge--outline-blue-gray {
     border: 1.5px solid #3E4784;
     background: #FFFFFF;
     color: #363F72;
 }
 
-.outline-blue-light {
+.badge--outline-blue-light {
     border: 1.5px solid #0086C9;
     background: #FFFFFF;
     color: #026AA2;
 }
 
-.outline-blue {
+.badge--outline-blue {
     border: 1.5px solid #1570EF;
     background: #FFFFFF;
     color: #175CD3;
 }
 
-.outline-indigo {
+.badge--outline-indigo {
     border: 1.5px solid #444CE7;
     background: #FFFFFF;
     color: #3538CD;
 }
 
-.outline-purple {
+.badge--outline-purple {
     border: 1.5px solid #6938EF;
     background: #FFFFFF;
     color: #5925DC;
 }
 
-.outline-purple {
+.badge--outline-purple {
     border: 1.5px solid #DD2590;
     background: #FFFFFF;
     color: #C11574;
 }
 
-.outline-orange {
+.badge--outline-orange {
     border: 1.5px solid #E04F16;
     background: #FFFFFF;
     color: #B93815;
 }
 
-.badge-sm {
+.badge--badge {
+    border-radius: 6px;
+}
+
+.badge--sm {
     font-size: 12px;
     width: 44px;
     height: 22px;
     padding: 2px 6px;
-    border-radius: 6px;
 }
 
-.badge-md {
+.badge--md {
     font-size: 14px;
     width: 53px;
     height: 24px;
     padding: 2px 8px;
-    border-radius: 6px;
 }
 
-.badge-lg {
+.badge--lg {
     font-size: 14px;
     width: 57px;
     height: 28px;
     padding: 4px 10px;
-    border-radius: 6px;
 }

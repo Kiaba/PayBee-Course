@@ -34,8 +34,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+              "src/styles.scss"
             ],
             "scripts": [
                 "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
