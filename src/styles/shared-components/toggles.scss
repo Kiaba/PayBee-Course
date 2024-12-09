@@ -1,0 +1,11 @@
+.form-check-input.form-check-input--paybee-ds2:checked {
+    @extend .bg-brand-solid--paybee-ds2;
+}
+
+.form-switch .form-check-input.form-check-input--paybee-ds2:focus {
+    --bs-form-switch-bg: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IC00IDggOCI+PGNpcmNsZSByPSIzIiBmaWxsPSIjZmZmZmZmIi8+PC9zdmc+)
+}
+
+.form-check-input.form-check-input--paybee-ds2:focus {
+    border-color: $color-brand-600;
+}

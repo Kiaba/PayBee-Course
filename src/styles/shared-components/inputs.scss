@@ -1,0 +1,63 @@
+.form-label.form-label--primary-paybee-ds2 {
+    @extend .d-block;
+    @extend .typography-text-sm;
+
+    margin-bottom: $spacing-sm;
+}
+
+.form-control.form-control--paybee-ds2 {
+    @extend .typography-text-md;
+    @extend .border-primary--paybee-ds2;
+    @extend .text-primary--paybee-ds2;
+
+    border-radius: $radius-md;
+    border-width: $border-width;
+
+    padding:
+        ($spacing-md - $border-width)
+        ($spacing-lg - $border-width)
+        ($spacing-md - $border-width)
+        ($spacing-lg - $border-width);
+
+    &.is-invalid {
+        @extend .border-error__subtle--paybee-ds2;
+
+        &:focus {
+            @extend .border-error--paybee-ds2;
+
+            background-position: right calc(0.375em + 0.1875rem - ($border-width-focus - $border-width)) center;
+        }
+    }
+
+    &.is-valid {
+        @extend .border-success__subtle--paybee-ds2;
+
+        &:focus {
+            @extend .border-success--paybee-ds2;
+
+            background-position: right calc(0.375em + 0.1875rem - ($border-width-focus - 1px)) center;
+        }
+    }
+
+    &::placeholder {
+        @extend .text-placeholder;
+    }
+
+    &:focus {
+        @extend .border-brand--paybee-ds2;
+
+        box-shadow: none;
+        border-width: $border-width-focus;
+
+        padding:
+            ($spacing-md - $border-width-focus)
+            ($spacing-lg - $border-width-focus)
+            ($spacing-md - $border-width-focus)
+            ($spacing-lg - $border-width-focus);
+    }
+
+    &:disabled {
+        @extend .border-disabled--paybee-ds2;
+        @extend .text-disabled--paybee-ds2;
+    }
+}

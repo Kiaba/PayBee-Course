@@ -1,0 +1,82 @@
+$typography-display-2xl-font-size: 72px;
+$typography-display-2xl-line-height: 90px;
+
+$typography-display-xl-font-size: 60px;
+$typography-display-xl-line-height: 72px;
+
+$typography-display-lg-font-size: 48px;
+$typography-display-lg-line-height: 60px;
+
+$typography-display-md-font-size: 36px;
+$typography-display-md-line-height: 44px;
+
+$typography-display-sm-font-size: 30px;
+$typography-display-sm-line-height: 38px;
+
+$typography-display-xs-font-size: 24px;
+$typography-display-xs-line-height: 32px;
+
+$typography-text-xl-font-size: 20px;
+$typography-text-xl-line-height: 30px;
+
+$typography-text-lg-font-size: 18px;
+$typography-text-lg-line-height: 28px;
+
+$typography-text-md-font-size: 16px;
+$typography-text-md-line-height: 24px;
+
+$typography-text-sm-font-size: 14px;
+$typography-text-sm-line-height: 20px;
+
+$typography-text-xs-font-size: 12px;
+$typography-text-xs-line-height: 18px;
+
+.typography-display-2xl {
+    font-size: $typography-display-2xl-font-size;
+    line-height: $typography-display-2xl-line-height;
+}
+
+.typography-display-xl {
+    font-size: $typography-display-xl-font-size;
+    line-height: $typography-display-xl-line-height;
+}
+
+.typography-display-lg {
+    font-size: $typography-display-lg-font-size;
+    line-height: $typography-display-lg-line-height;
+}
+
+.typography-display-md {
+    font-size: $typography-display-md-font-size;
+    line-height: $typography-display-md-line-height;
+}
+
+.typography-display-sm {
+    font-size: $typography-display-sm-font-size;
+    line-height: $typography-display-sm-line-height;
+}
+
+.typography-text-xl {
+    font-size: $typography-text-xl-font-size;
+    line-height: $typography-text-xl-line-height;
+}
+
+.typography-text-lg {
+    font-size: $typography-text-lg-font-size;
+    line-height: $typography-text-lg-line-height;
+}
+
+.typography-text-md {
+    font-size: $typography-text-md-font-size;
+    line-height: $typography-text-md-line-height;
+}
+
+.typography-text-sm {
+    font-size: $typography-text-sm-font-size;
+    line-height: $typography-text-sm-line-height;
+}
+
+.typography-text-xs {
+    font-size: $typography-text-xs-font-size;
+    line-height: $typography-text-xs-line-height;
+}
