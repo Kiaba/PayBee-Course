@@ -1,0 +1,73 @@
+.input-group--horizontal{
+  width: 108px;
+  height: 32px;
+  border: 1px solid #E4E7EC;
+  border-radius: 8px;
+  flex-direction: row;
+}
+.input-group--horizontal>.btn.btn-outline-secondary.btn--minus, .input-group--horizontal>.btn.btn-outline-secondary.btn--plus{
+  width: 38px;
+  height: 32px;
+  padding: 0;
+  border-color: #E4E7EC;
+  background-color: #F9FAFB;
+  gap: 10px;
+  color: #000000;
+}
+
+.input-group--horizontal>.btn--minus{
+  border-right: 1px solid;
+}
+
+.input-group--horizontal>.btn--plus{
+  border-left: 1px solid;
+}
+.input-group--horizontal>.form-control{
+  width: 32px;
+  height: 32px;
+  gap: 10px;
+  padding: 0;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000; 
+  background-color: white;
+}
+
+.input-group--vertical {
+  width: 40px;
+  height: 96px;
+  border: 1px solid #E4E7EC;
+  border-radius: 8px;
+  flex-direction: column-reverse;
+}
+.input-group--vertical>.btn.btn-outline-secondary.btn--minus, .input-group--vertical>.btn.btn-outline-secondary.btn--plus{
+  width: 40px;
+  height: 31px;
+  padding: 0;
+  border-color: #E4E7EC;
+  background-color: #F9FAFB;
+  gap: 10px;
+  color: #000000;
+}
+
+.input-group--vertical>.btn--minus{
+  border-bottom: 1px solid;
+}
+
+.input-group--vertical>.btn--plus{
+  border-top: 1px solid;
+}
+.input-group--vertical>.form-control{
+  width: 40px;
+  height: 32px;
+  gap: 10px;
+  padding: 0;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000; 
+  background-color: white;
+}
