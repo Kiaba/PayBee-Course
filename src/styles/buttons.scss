@@ -1,0 +1,16 @@
+.btn.btn-outline-secondary{
+  &.btn--minus, &.btn--plus{
+  width: 38px;
+  height: 32px;
+  border-color: #E4E7EC;
+  color: #000000;
+  background-color: #F9FAFB;
+  gap: 10px;
+  }
+  &.btn--minus{
+    border-right: 1px solid #E4E7EC;
+  }
+  &.btn--plus{
+    border-left: 1px solid #E4E7EC;
+  }
+}
