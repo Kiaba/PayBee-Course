@@ -1,0 +1,27 @@
+.form-control{
+  &--paybee:focus{
+    border: 2px solid;
+    box-shadow: none;
+    padding: 6px 10px;
+  }
+
+  &--medium{
+    padding: 9px 13px;
+  }
+
+  &--medium:focus{
+    padding: 8px 12px;
+  }
+
+  &--orange{
+    border-color: #FDA29B;
+  }
+
+  &--orange:focus{
+    border-color:#F04438;
+  }
+
+  &--purple:focus{
+    border-color: #9E77ED;
+  }
+}
