@@ -1,29 +1,27 @@
-.badge--paybee {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+// .badge {
+//     position: absolute;
+//     top: 30%;
+//     left: 30%;
+//     box-sizing: border-box;
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+//     font-family: 'Inter';
+//     font-style: normal;
+//     font-weight: 500;
 
-    text-align: center;
+//     text-align: center;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
+//     flex: none;
+//     order: 0;
+//     flex-grow: 0;
+// }
 
-.badge--pill {
-    border-radius: 999999px;
-}
 
-.pill-brand {
+
+.badge--brand {
     border: 1px solid #E9D7FE;
     background: #E9E5EF;
     color: #6941C6;
@@ -31,7 +29,7 @@
 
 .badge--gray {
     border: 1px solid #E4E7EC;
-    background: #F9FAFB; 
+    background: #F9FAFB;
     color: #344054;
 }
 
